@@ -147,14 +147,9 @@ GRPO算法开始的已经比较晚了，距离SemEval-2026-task-1截止只剩2�
 
 headline输入时：
 
+
 $$
-R_{\text{headline}}(x)
-=
-0.75 \, R_{\text{deb}}(x)
-\;+\;
-0.20 \, R_{\text{len}}(x)
-\;-\;
-0.15 \, R_{\text{rep}}(x)
+R_{\text{headline}}(x)=0.75 \, R_{\text{deb}}(x)\+0.20 \, R_{\text{len}}(x)\-0.15 \, R_{\text{rep}}(x)
 $$
 
 
@@ -169,19 +164,12 @@ WEIGHT_REPETITION = -0.15
 
 &nbsp;
 
-two words作为输入时
+two words作为输入时：
 
 $$
-R_{\text{words}}(x)
-=
-0.55 \, R_{\text{deb}}(x)
-\;+\;
-0.25 \, R_{\text{wc}}(x)
-\;+\;
-0.15 \, R_{\text{len}}(x)
-\;-\;
-0.10 \, R_{\text{rep}}(x)
+R_{\text{words}}(x)=0.55 \, R_{\text{deb}}(x)\+0.25 \, R_{\text{wc}}(x)\+0.15 \, R_{\text{len}}(x)\-0.10 \, R_{\text{rep}}(x)
 $$
+
 
 ```python
 # for prompt_type == 'words'
@@ -194,8 +182,7 @@ WEIGHT_REPETITION    = -0.10
 其中：
 
 $$
-R_{\text{coverage}}\!\left(y \mid w_1, w_2\right)
-=
+R_{\text{coverage}}\left(y \mid w_1, w_2\right)=
 \begin{cases}
 1.0, & \text{if } y \text{ contains both } w_1 \text{ and } w_2, \\
 0.5, & \text{if } y \text{ contains exactly one of } \{w_1, w_2\}, \\
