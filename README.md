@@ -1,5 +1,4 @@
-# SemEval-2026-task-1-a_2026.2.1_summary
-
+# SemEval-2026-2.1_summary
 
 经过几个月的学习，从学习吴恩达机器学习基础课、算法练习到具体的 imdb 深度学习教程学习，再到SemEval-2026-task-1任务。我的学习内容逐步从传统深度学习模型过渡到LLM优化，这一过程收获良多。特别感谢王津导师的支持和耐心教导！到目前，SemEval-2026-task-1马上结束了。
 
@@ -36,6 +35,9 @@ task-1-A 的任务目标是条件幽默生成任务：给 headline 或 two words
 **方法**
 
 参考SemEval-2026-task-1-a提供的数据格式，使用LLM通过 Instruction-Learing 生成headline/two words。
+
+
+&nbsp;
 
 **实现**
 
