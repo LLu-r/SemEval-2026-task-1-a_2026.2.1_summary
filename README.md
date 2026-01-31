@@ -149,7 +149,7 @@ headline输入时：
 
 
 $$
-R_{\text{headline}}(x)=0.75 \, R_{\text{deb}}(x)\+0.20 \, R_{\text{len}}(x)\-0.15 \, R_{\text{rep}}(x)
+R_{\text{headline}}(x)=0.75 \ R_{\text{deb}}(x)\+0.20 \ R_{\text{len}}(x)\-0.15 \ R_{\text{rep}}(x)
 $$
 
 
@@ -167,7 +167,7 @@ WEIGHT_REPETITION = -0.15
 two words作为输入时：
 
 $$
-R_{\text{words}}(x)=0.55 \, R_{\text{deb}}(x)\+0.25 \, R_{\text{wc}}(x)\+0.15 \, R_{\text{len}}(x)\-0.10 \, R_{\text{rep}}(x)
+R_{\text{words}}(x)=0.55 \ R_{\text{deb}}(x)\+0.25 \ R_{\text{wc}}(x)\+0.15 \ R_{\text{len}}(x)\-0.10 \ R_{\text{rep}}(x)
 $$
 
 
