@@ -198,8 +198,9 @@ running中文的GRPO：总共3个Epoch，每个Epoch预估4小时；
 
 总时长预估12小时跑完中文GRPO。
 
+&nbsp;
 
-目前的实验结果：
+**目前的实验结果：**
 
 ```text
 KL系数=0.01
@@ -255,6 +256,11 @@ Prompt: 请使用以下两个词语，创作一段幽默的中文文本：
   Length: 0.738
   Repetition Penalty: 0.294
 ```
+
+可以看到，KL系数调大模型仍然会出现乱码（阿拉伯字符），初步判断是deberta打分的漏洞。
+
+&nbsp;
+&nbsp;
 
 ## SemEval 的提交情况
 
